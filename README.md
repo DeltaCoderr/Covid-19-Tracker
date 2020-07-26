@@ -10,3 +10,4 @@ A Basic Covid-19 Cases Tracker.
 * Shows the Total Number of People Recovered.
 * Displays the New Confirmed Cases. 
 * Displays the New Number of Deaths Happened Recently.
+* Displays the Total Number of New People Recovered.
