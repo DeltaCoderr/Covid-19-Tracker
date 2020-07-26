@@ -15,4 +15,4 @@ A Basic Covid-19 Cases Tracker.
 
 # Credits :
 * [DeltaCoderr](https://github.com/DeltaCoderr) - Lead Developer (HTML, CSS, JS).
-* [C-19 API](https://api.covid19api.com/summary)
+* [C-19 API](https://api.covid19api.com/summary) - For the API.
