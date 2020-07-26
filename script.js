@@ -19,7 +19,7 @@ let btn = document.getElementById("btn");
                 } 
 
                 var index = 0;
-                   
+              //Loop for testing purposes.     
                 for(var i=0;i<185;i++){
                     if(getData.Countries[i].Country.toLowerCase() == text.toLowerCase()){
                         index = i;
