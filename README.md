@@ -11,3 +11,7 @@ A Basic Covid-19 Cases Tracker.
 * Displays the New Confirmed Cases. 
 * Displays the New Number of Deaths Happened Recently.
 * Displays the Total Number of New People Recovered.
+
+
+# Credits :
+* [DeltaCoderr](https://github.com/DeltaCoderr) - Lead Developer (HTML, CSS, JS).
