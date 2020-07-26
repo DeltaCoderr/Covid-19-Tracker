@@ -5,3 +5,4 @@ Note: This only works for Countries.
 
 
 # Features : 
+* Shows the Number of total Cases Confirmed in the Country Specified.
