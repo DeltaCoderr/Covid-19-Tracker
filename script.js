@@ -7,6 +7,7 @@ let btn = document.getElementById("btn");
             .then((covidData)=>{
                 return covidData.json();
             })
+           //Fetches the Information from the API in JSON format
             .then((getData)=>{
                 console.log(getData);
                 var content = document.querySelector(".data"); 
@@ -18,6 +19,7 @@ let btn = document.getElementById("btn");
                 } 
 
                 var index = 0;
+                   
                 for(var i=0;i<185;i++){
                     if(getData.Countries[i].Country.toLowerCase() == text.toLowerCase()){
                         index = i;
