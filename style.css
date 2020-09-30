@@ -1,62 +1,79 @@
-*{
+* {
     margin: 0;
     padding: 0;
-  border: none;
-  box-sizing: border-box;
+    border: none;
+    box-sizing: border-box;
 }
+
 body {
     height: 100vh;
-    display:flex;
-    justify-content: center ;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    /* background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143)); */
     font-family: sans-serif;
     color: white;
 }
 
-.inputBox{
+.inputBox {
     width: 500px;
     margin: 20px auto;
     display: flex;
     justify-content: center;
 }
-.inputBox input{
-    width: 300px;
-    height: 30px;
+
+.inputBox input {
+    width: 400px;
+    height: 50px;
     margin: 0 10px;
     font-size: 1.2rem;
+    padding: 20px!important;
+    border-radius: 10px;
+    background-color: aliceblue;
 }
-.inputBox button{
-    width: 90px;
-    height: 34px;
+
+.inputBox button {
+    width: 100px;
+    height: 50px;
     background: rgb(65, 144, 255);
     color: white;
     border: none;
     font-size: 1.2rem;
+    border-radius: 10px;
+    text-align: center;
 }
-.data{
+
+.data {
     width: 800px;
     margin: 0 auto;
+    background-color: aliceblue;
+    padding: 40px;
+    width: 70%;
+    border-radius: 20px;
 }
+
 .box .head {
-    border: 1px solid black;
     border-radius: 15px;
     padding: 10px 20px;
     text-align: center;
+    color: rgb(65, 144, 255);
+    font-weight: 700;
 }
-.box .head span{
-     margin: 10px;
-    font-size: 30px;
 
+.box .head span {
+    margin: 10px;
+    font-size: 30px;
 }
-.total{
+
+.total {
     display: flex;
     width: 800px;
     height: 200px;
     justify-content: space-between;
 }
-.total div{
+
+.total div {
     margin-top: 20px;
     width: 30%;
     height: 200px;
@@ -65,44 +82,62 @@ body {
     background-color: rgb(137, 137, 137);
     color: white;
 }
-.total div p{
+
+.total div p {
     margin: 50px 0 10px 0;
 }
-.total div:nth-child(1){
-    background: #41a7ff;
+
+.total div:nth-child(1) {
+    background: red;
+    border-radius: 10px;
 }
-.total div:nth-child(2){
-    background: #ff3434;
-}
-.total div:nth-child(3){
+
+.total div:nth-child(2) {
+    border-radius: 10px;
     background: #32b336;
 }
 
+.total div:nth-child(3) {
+    background: indigo;
+    border-radius: 10px;
+}
 
-.new{
+.new {
     margin-top: 60px;
     display: flex;
     width: 800px;
     height: 200px;
     justify-content: space-between;
 }
-.new div{
+
+.new div {
     width: 30%;
     height: 200px;
     background-color: rgb(65, 144, 255);
     color: white;
     font-size: 2rem;
     text-align: center;
-} 
-.new div p{
+}
+
+.new div p {
     margin: 50px 0 10px 0;
 }
-.new div:nth-child(1){
-    background: #d83f3f;
+
+.new div:nth-child(1) {
+    background: rgb(197, 245, 102);
+    border-radius: 10px;
 }
-.new div:nth-child(2){
+
+.new div:nth-child(2) {
     background: #ff0053;
+    border-radius: 10px;
 }
-.new div:nth-child(3){
+
+.new div:nth-child(3) {
     background: #ffa501;
+    border-radius: 10px;
+}
+
+#heading h1 {
+    font-weight: 700;
 }
