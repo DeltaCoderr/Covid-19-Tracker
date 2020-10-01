@@ -15,7 +15,7 @@ A Basic Covid-19 Cases Tracker.
 
 ## ✨ Contributors :
 <a href="https://github.com/DeltaCoderr/Covid-19-Tracker/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=DeltaCoderr/Covid-19-Trackerr" />
+  <img src="https://contributors-img.web.app/image?repo=DeltaCoderr/Covid-19-Tracker" />
 </a>
 
 
