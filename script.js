@@ -31,7 +31,7 @@ let btn = document.getElementById("btn");
                         index = -1;
                     }
                 }
-                console.log({index})
+                
                     //HTML starts here
                 if(index !== -1){
                     let countryData = getData.Countries[index];
