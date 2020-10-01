@@ -13,6 +13,9 @@ A Basic Covid-19 Cases Tracker.
 * Displays the Total Number of New People Recovered.
 
 
-# Credits :
-* [DeltaCoderr](https://github.com/DeltaCoderr) - Lead Developer (HTML, CSS, JS).
-* [Covid-19 API](https://api.covid19api.com/summary) - For the API.
+## ✨ Contributors :
+<a href="https://github.com/DeltaCoderr/Covid-19-Tracker/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=DeltaCoderr/Covid-19-Trackerr" />
+</a>
+
+
