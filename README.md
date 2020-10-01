@@ -17,6 +17,7 @@ A Basic Covid-19 Cases Tracker.
 * **Repl:** [![Run on Repl.it](https://repl.it/badge/github/DeltaCoderr/Covid-19-Tracker)](https://repl.it/github/DeltaCoderr/Covid-19-Tracker)
 
 ## ✨ Contributors :
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/DeltaCoderr/Covid-19-Tracker)&nbsp;
 <a href="https://github.com/DeltaCoderr/Covid-19-Tracker/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=DeltaCoderr/Covid-19-Tracker" />
 </a>
