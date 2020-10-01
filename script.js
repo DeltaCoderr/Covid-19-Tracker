@@ -50,6 +50,7 @@ let btn = document.getElementById("btn");
 
 btn.addEventListener("click", () => {
     let text = document.getElementById("getText").value;
+
     //Credits to the API
     fetch("https://api.covid19api.com/summary")
         .then((covidData) => {
@@ -78,7 +79,7 @@ btn.addEventListener("click", () => {
             let data = document.querySelector(".data");
             data.innerHTML = `<div class="box">
                                 <div class="head">
-                                    <span>Covid-19 Cases in ${getData.Countries[index].Country}</span>
+                                    <span>Covid-19 Cases in ${text}</span>
                                 </div>
                                 <div class="total">
                                     <div><p>TotalConfirmed</p> ${getData.Countries[index].TotalConfirmed}</div>
