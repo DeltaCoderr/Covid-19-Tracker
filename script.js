@@ -27,10 +27,14 @@ let btn = document.getElementById("btn");
                     if(getData.Countries[i].Country.toLowerCase() == text.toLowerCase()){
                         index = i;
                         break;
+                    } else {
+                        index = -1;
                     }
                 }
+                
                     //HTML starts here
-                let countryData = getData.Countries[index];
+                if(index !== -1){
+                    let countryData = getData.Countries[index];
                 let percentRecovered = (countryData.TotalRecovered/countryData.TotalConfirmed)*100;
                 let percentFatalities = (countryData.TotalDeaths/countryData.TotalConfirmed)*100;
                 let totalActive = countryData.TotalConfirmed-(countryData.TotalRecovered+countryData.TotalDeaths);
@@ -55,5 +59,28 @@ let btn = document.getElementById("btn");
                                     <div><p>NewRecovered</p> ${countryData.NewRecovered}</div>
                                     </div>
                                 </div>`;
+                } else {
+                    let data = document.querySelector(".data");
+                    data.innerHTML = `<div class="box">
+                                    <div class="head">
+                                        <span>Data not found</span>
+                                    </div>
+                                    <div class="total">
+                                        <div>-</div>
+                                        <div>-</div>
+                                        <div>-</div>
+                                    </div>
+                                    <div class="percent">
+                                        <div>-</div>
+                                        <div>-</div>
+                                        <div>-</div>
+                                        </div>
+                                    <div class="new">
+                                        <div>-</div>
+                                        <div>-</div>
+                                        <div>-</div>
+                                        </div>
+                                    </div>`
+                }
             })
         })
