@@ -30,7 +30,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
      <td align="center"><a href="https://github.com/DeltaCoderr"><img src="https://avatars0.githubusercontent.com/u/51528076?s=460&u=d1e28ca661a14f0b3428cc07dd410f36f891966b&v=4" width="100px;" alt=""/><br /><sub><b>DeltaCoderr</b></sub></a><br /><a href="https://github.com/houseofgeeks/hg/commits?author=DeltaCoderr" title="Code">💻</a></td>
   </tr>
   <tr>
-</table
+</table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
