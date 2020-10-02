@@ -29,6 +29,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
      <td align="center"><a href="https://github.com/DeltaCoderr"><img src="https://avatars0.githubusercontent.com/u/51528076?s=460&u=d1e28ca661a14f0b3428cc07dd410f36f891966b&v=4" width="100px;" alt=""/><br /><sub><b>DeltaCoderr</b></sub></a><br /><a href="https://github.com/houseofgeeks/hg/commits?author=DeltaCoderr" title="Code">💻</a></td>
      <td align="center"><a href="https://github.com/pandurijal"><img src="https://avatars0.githubusercontent.com/u/12939625?s=400&u=9814258f07c0a6d2a3f28cddf2dfefbab6f39b2e&v=4" width="100px;" alt=""/><br /><sub><b>Pandu</b></sub></a><br /><a href="https://github.com/houseofgeeks/hg/commits?author=pandurijal" title="Code">💻</a></td>
+     <td align="center"><a href="https://github.com/ujjwalravi"><img src="https://avatars0.githubusercontent.com/u/59475060?s=400&v=4" width="100px;" alt=""/><br /><sub><b>ujjwalravi</b></sub></a><br /><a href="https://github.com/houseofgeeks/hg/commits?author=ujjwalravi" title="Code">💻</a></td>
+     <td align="center"><a href="https://github.com/t6tg"><img src="https://avatars2.githubusercontent.com/u/33445861?s=400&u=526c40a2111122a95a807f12263ff5ae61a1ee7b&v=4" width="100px;" alt=""/><br /><sub><b>t6tg</b></sub></a><br /><a href="https://github.com/houseofgeeks/hg/commits?author=t6tg" title="Code">💻</a></td>
   </tr>
   
 </table>
