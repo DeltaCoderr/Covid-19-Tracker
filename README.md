@@ -28,8 +28,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
      <td align="center"><a href="https://github.com/DeltaCoderr"><img src="https://avatars0.githubusercontent.com/u/51528076?s=460&u=d1e28ca661a14f0b3428cc07dd410f36f891966b&v=4" width="100px;" alt=""/><br /><sub><b>DeltaCoderr</b></sub></a><br /><a href="https://github.com/houseofgeeks/hg/commits?author=DeltaCoderr" title="Code">💻</a></td>
+     <td align="center"><a href="https://github.com/pandurijal"><img src="https://avatars0.githubusercontent.com/u/12939625?s=400&u=9814258f07c0a6d2a3f28cddf2dfefbab6f39b2e&v=4" width="100px;" alt=""/><br /><sub><b>Pandu</b></sub></a><br /><a href="https://github.com/houseofgeeks/hg/commits?author=pandurijal" title="Code">💻</a></td>
   </tr>
-  <tr>
+  
 </table>
 
 <!-- markdownlint-enable -->
