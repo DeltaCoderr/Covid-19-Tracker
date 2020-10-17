@@ -33,14 +33,14 @@ let btn = document.getElementById("btn");
                                     <span>Covid-19 Cases in ${getData.Countries[index].Country}</span>
                                 </div>
                                 <div class="total">
-                                    <div><p>TotalConfirmed</p> ${getData.Countries[index].TotalConfirmed}</div>
-                                    <div><p>TotalDeaths</p> ${getData.Countries[index].TotalDeaths}</div>
-                                    <div><p>TotalRecovered</p> ${getData.Countries[index].TotalRecovered}</div>
+                                    <div><p class='tag'>Total Confirmed</p> ${getData.Countries[index].TotalConfirmed}</div>
+                                    <div><p class='tag'>Total Deaths</p> ${getData.Countries[index].TotalDeaths}</div>
+                                    <div><p class='tag'>Total Recovered</p> ${getData.Countries[index].TotalRecovered}</div>
                                 </div>
                                 <div class="new">
-                                    <div><p>NewConfirmed</p> ${getData.Countries[index].NewConfirmed}</div>
-                                    <div><p>NewDeaths</p> ${getData.Countries[index].NewDeaths}</div>
-                                    <div><p>NewRecovered</p> ${getData.Countries[index].NewRecovered}</div>
+                                    <div><p class='tag'>New Confirmed</p> ${getData.Countries[index].NewConfirmed}</div>
+                                    <div><p class='tag'>New Deaths</p> ${getData.Countries[index].NewDeaths}</div>
+                                    <div><p class='tag'>New Recovered</p> ${getData.Countries[index].NewRecovered}</div>
                                     </div>
                                 </div>`;
             })

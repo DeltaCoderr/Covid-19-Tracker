@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Covid Tracker</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./particles.js-master/particles.min.js"></script>
 </head>
 <body>
-  
+    <div  id="particles-js"></div>
     <div class="inputBox">
         <input type="text" id="getText">
         <button id="btn">Search</button>
@@ -16,6 +17,10 @@
     <div class="data">
     </div>
     <script src="script.js"></script>
-
+    <script>
+        particlesJS.load('particles-js','particles.json',function() {
+            console.log('particles');
+        })
+    </script>
   </body>
 </html>

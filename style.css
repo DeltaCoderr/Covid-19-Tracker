@@ -10,9 +10,18 @@ body {
     justify-content: center ;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    background: rgb(120, 159, 230);
     font-family: sans-serif;
     color: white;
+    
+}
+
+#particles-js {
+    background: rgb(54, 54, 54);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
 }
 
 .inputBox{
@@ -40,7 +49,7 @@ body {
     margin: 0 auto;
 }
 .box .head {
-    border: 1px solid black;
+    border: 1px solid rgb(236, 234, 234);
     border-radius: 15px;
     padding: 10px 20px;
     text-align: center;
@@ -58,26 +67,29 @@ body {
 }
 .total div{
     margin-top: 20px;
-    width: 30%;
+    margin-left: 20px;
+    width: 35%;
     height: 200px;
     font-size: 2rem;
     text-align: center;
-    background-color: rgb(137, 137, 137);
     color: white;
+    border-radius: 2vw;
 }
 .total div p{
-    margin: 50px 0 10px 0;
+    margin: 10px 0 50px 0;
+    padding: 5px 0;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
 }
 .total div:nth-child(1){
-    background: #41a7ff;
+    background: #ff304f67;
 }
 .total div:nth-child(2){
-    background: #ff3434;
+    background: #0f69d165;
 }
 .total div:nth-child(3){
-    background: #32b336;
+    background: #8535e059;
 }
-
 
 .new{
     margin-top: 60px;
@@ -87,22 +99,27 @@ body {
     justify-content: space-between;
 }
 .new div{
-    width: 30%;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 35%;
     height: 200px;
-    background-color: rgb(65, 144, 255);
-    color: white;
     font-size: 2rem;
     text-align: center;
+    color: white;
+    border-radius: 2vw;
 } 
 .new div p{
-    margin: 50px 0 10px 0;
+    margin: 10px 0 50px 0;
+    padding: 5px 0;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
 }
 .new div:nth-child(1){
-    background: #d83f3f;
+    background: #2cd8358c;
 }
 .new div:nth-child(2){
-    background: #ff0053;
+    background: #ff005585;
 }
 .new div:nth-child(3){
-    background: #ffa501;
+    background: #ffa60188;
 }
